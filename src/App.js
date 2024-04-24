@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import socketIOClient from "socket.io-client";
 import "./App.css";
-const host = "http://localhost:3000";
+const host = "https://chat-server-one-lemon.vercel.app/";
 
 function App() {
   const [mess, setMess] = useState([]);
